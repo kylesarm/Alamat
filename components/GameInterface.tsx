@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { MunicipalityData, QuestData, PlayerStats, GameEvent, MarketData, CraftingRecipe, DialogueNode, Item, SubLocation } from '../types';
 import { MUNICIPALITIES, QUESTS, MARKETS, CRAFTING_RECIPES, ITEMS } from '../constants';
-import { Swords, Compass, BatteryCharging, MapPin, Store, ArrowRight, AlertTriangle, Hammer, Backpack, MessageCircle, ChevronRight, Shield, Zap, Heart, MousePointer, Skull, Moon, Coins, LogOut, Building, Landplot, Landmark, Image as ImageIcon } from 'lucide-react';
+import { Swords, Compass, BatteryCharging, MapPin, Store, ArrowRight, AlertTriangle, Hammer, Backpack, MessageCircle, ChevronRight, Shield, Zap, Heart, MousePointer, Skull, Moon, Coins, LogOut, Building, Landmark, Image as ImageIcon } from 'lucide-react';
 
 interface GameInterfaceProps {
   currentLocationId: string;
