@@ -44,7 +44,7 @@ const COMMON_LOOT_TABLE = [
 
 const App: React.FC = () => {
   // Navigation State
-  const [activeSection, setActiveSection] = useState<string>('concept');
+  const [activeSection, setActiveSection] = useState<string>('story');
   const [selectedMunicipality, setSelectedMunicipality] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<'map' | 'lore' | 'game'>('lore');
 
